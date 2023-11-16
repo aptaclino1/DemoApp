@@ -16,7 +16,11 @@ class WelcomeVC: UIViewController {
         // Do any additional setup after loading the view.
         
         textLabel.text = "Hello world"
+
         textLabel.textColor = .black
+
+        textLabel.textColor = .green
+
         textLabel.textAlignment = .center
         
         
