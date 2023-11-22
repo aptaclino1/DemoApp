@@ -27,7 +27,7 @@ class WelcomeVC: UIViewController {
         
         titleLabel.text = "Testing Site"
         titleLabel.font = .boldSystemFont(ofSize: 30)
-        titleLabel.textColor = .red
+        titleLabel.textColor = .blue
     }
 
 
