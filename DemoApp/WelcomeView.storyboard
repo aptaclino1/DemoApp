@@ -22,21 +22,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I40-wz-oDm">
+                                <rect key="frame" x="83" y="117" width="217" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="BMt-Va-ole"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstItem="jew-ix-lsu" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="7zX-zm-BCi"/>
+                            <constraint firstItem="I40-wz-oDm" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="83" id="DEt-5O-QYg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="I40-wz-oDm" secondAttribute="trailing" constant="93" id="GA3-Xd-O2D"/>
+                            <constraint firstItem="I40-wz-oDm" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="58" id="dE3-Cv-3tV"/>
                             <constraint firstItem="jew-ix-lsu" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="gFa-sc-JAf"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="textLabel" destination="jew-ix-lsu" id="98w-vA-J61"/>
+                        <outlet property="titleLabel" destination="I40-wz-oDm" id="YkX-1z-cVB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10" y="-2"/>
+            <point key="canvasLocation" x="9.9236641221374047" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
